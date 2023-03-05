@@ -1,0 +1,108 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: rgb(22, 22, 69);height: 150px;
+}
+
+.container {
+  margin-top: 0;
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: rgb(19, 205, 149);
+}
+
+.search {
+  color: white;
+  border-left: 1px solid rgb(19, 205, 149);
+  padding: 4px;
+}
+
+.btn-primary {
+  margin-left: 3rem;
+}
+
+.landing {
+  margin-top: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.btny {
+  background-color: rgba(165, 0, 0, 0.906);
+  color: yellow;
+  padding: 10px;
+}
+
+.btny:hover {
+  background-color: rgb(17, 181, 210);
+  transition: 0.5s;
+}
+
+.fa-poo {
+  height: 100px;
+  width: 100px;
+}
+
+.features {
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+h2{margin-top: 1rem;}
+
+.someof::after{
+
+    content: "";
+width: 120px;
+height: 2px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+
+
+
+.iocn-holder{height: 200px;}
+
+.fa-solid{transform: translateX(-50%);left: 50%;}
+
+.number{font-size: 10rem; color: #d6d8db61;}
+.pencil{font-size: 4rem;color: rgb(23, 167, 40);}
+
+
+
+
+@media (max-width: 967px) {
+  .nav-link {
+    color: black;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+}
